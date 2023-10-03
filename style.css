@@ -1,0 +1,77 @@
+body {background: #000;color:white;font-size:14px;font-family:comic sans ms;}
+ 
+* {
+ margin: 0px;
+ padding: 0px;
+}
+ 
+/*CSS DE LOS PRODUCTOS*/
+ img.imagen {
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
+ padding-top:5px;
+ }
+ 
+ div.etiquetas {
+ color:black;
+ text-align:center;
+ width:222px;
+ height:22px;
+ }
+ 
+ div.stock {padding-left:0px;}
+ 
+ input.uniBien {
+ position:relative;
+ margin-left:45px;
+ 
+ 
+ background:white;
+ }
+ input.uniMal {
+ margin-left:52px;
+ background:red;
+ }
+ 
+ div.divsNo {display:none;}
+ div.divsSi {display:yes;}
+ 
+ #todo{
+ position:relative;
+ top:0px;
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
+ width:1000px;
+ background: #000 url("../img/otros/plantilla.jpg") no-repeat;
+}
+ div.todoNo{height:805px;}
+ div.todoSi{height:1070px;}
+ 
+ 
+ #menu{
+ position:absolute;
+ top:26px;
+ left:143px;
+ width:715px;
+}
+ div.menuNo{height:775px;}
+ div.menuSi{height:1040px;}
+ 
+ #div1{
+ position:absolute;
+ top:38px;
+ left:12px;
+ width:221px;
+ height:217px;
+ }
+ 
+ #div2{
+ position:absolute;
+ top:38px;
+ left:246px;
+ width:221px;
+ height:217px;
+ }
+ 
